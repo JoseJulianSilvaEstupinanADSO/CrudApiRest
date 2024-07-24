@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main class="container">
+        <form action="" class="formulario">
+            <div class="content">
+                <label for="">Nombre</label>
+                <input class="input input__nombre" type="text">
+            </div>
+            <div class="content">
+                <label  for="">Apellido</label>
+                <input class="input input__apellido" type="text">
+            </div>
+            <div class="content">
+                <label  for="">Telefono</label>
+                <input class="input input__telefono" type="text">
+            </div>
+            <div class="content">
+                <label for="">Tipo</label>
+                <select name="" id="" class="select">
+                    <option>Seleccionar</option>
+                </select>
+            </div>
+            <div class="content">
+                <label for="">Documento</label>
+                <input  class="input input__documento">
+            </div>
+            <div class="content">
+                <label for="">Correo</label>
+                <input class="input input__correo" type="text">
+            </div>
+            <div class="content">
+                <label for="">Direccion</label>
+                <input class="input input__direccion" type="text">
+            </div>
+            <div>
+                <input type="checkbox" class="input__checkbox">
+                <label for="">Terminos y condiciones</label>
+            </div>
+            <button type="submit" disabled id="enviar">Enviar</button>
+        </form>
+        <div class="tabla">
+            <table class="tabla__factura">
+              <thead class="tabla__th">
+                  <th>Id</th>
+                  <th>Nombre</th>
+                  <th>Apellido</th>
+                  <th>Documento</th>
+                  <th>Tipo Documento</th>
+                  <th>Correo</th>
+                  <th>Direccion</th>
+                  <th>Acciones</th>
+              </thead>
+              <tbody class="tabla__tb">
+                  
+              </tbody>
+            </table>
+        </div>
+        <button class="listar">Listar</button>
+    </main>
+    <script src="app.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+}
+
+.container{
+    gap: 30px;
+    width: 90%;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+}
+.formulario{
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+}
+select{
+    width: 100%;
+}
+input, select,button{
+    padding: 4px 8px;
+}
+button{
+    margin-top: 5px;
+}
+.alert{
+    border: solid 1px red;
+}
+.spam{
+    color: red;
+}
+.passed{
+    border: solid 1px rgb(63, 212, 63);
+}
+
+th{
+    padding: 7px 20px;
+}
+td{
+    text-align: center;
+}
